@@ -1,8 +1,6 @@
 -- LOAD MODULES
 require("config.lazy")
-require("lazy").setup("plugins")
 require("mappings")
-
 
 
 -- NVIM TREE CONFIGURATION
@@ -28,3 +26,8 @@ require("nvim-tree").setup({
     dotfiles = true,
   },
 })
+
+
+-- GENERAL VIM CONFIGURATION
+vim.wo.number = true
+vim.wo.relativenumber = true
