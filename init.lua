@@ -4,6 +4,7 @@ require("mappings")
 
 
 -- NVIM TREE CONFIGURATION
+-- Install ttf-jetbrains-mono-nerd font to display icons correctly
 -- disable netrw at the very start of your init.lua
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
