@@ -21,3 +21,5 @@ vim.wo.relativenumber = true  -- Show relative line numbers from the cursor's po
 vim.o.tabstop = 4  -- Number of spaces that a <TAB> counts for
 vim.o.shiftwidth = 4  -- Number of spaces to use for each step of autoindent
 vim.o.expandtab = true  -- Convert tabs to spaces
+
+vim.o.linebreak = true  -- Prevent words from being split in the middle when a line wraps
